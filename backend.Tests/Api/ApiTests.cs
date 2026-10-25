@@ -2,7 +2,9 @@ using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
+using OversharingChecker.Api.Explanations;
 using OversharingChecker.Api.Risk;
 using OversharingChecker.Api.Services;
 
@@ -16,15 +18,40 @@ public class ApiTests(WebApplicationFactory<Program> factory) : IClassFixture<We
         Converters = { new JsonStringEnumConverter() }
     };
 
-    private readonly HttpClient _client = factory.CreateClient();
+    // Make sure a developer's own OpenAI key never makes these tests call the real API.
+    private readonly HttpClient _client = factory.WithWebHostBuilder(builder => builder
+        .UseSetting("OpenAI:ApiKey", "")
+        .UseSetting("OPENAI_API_KEY", "")).CreateClient();
 
     [Fact]
-    public async Task Health_returns_ok()
+    public async Task Health_returns_ok_and_active_explainer()
     {
         var response = await _client.GetAsync("/api/health");
 
         response.EnsureSuccessStatusCode();
-        Assert.Contains("\"ok\"", await response.Content.ReadAsStringAsync());
+        var body = await response.Content.ReadAsStringAsync();
+        Assert.Contains("\"ok\"", body);
+        Assert.Contains("Rule-based", body);
+        Assert.Contains("\"aiEnabled\":false", body);
+    }
+
+    [Fact]
+    public async Task Explain_uses_rule_based_fallback_without_api_key()
+    {
+        var response = await _client.PostAsync("/api/items/aw-007/explain", null);
+        var explanation = await response.Content.ReadFromJsonAsync<RiskExplanation>(Json);
+
+        response.EnsureSuccessStatusCode();
+        Assert.Equal("Rule-based templates", explanation!.GeneratedBy);
+        Assert.NotEmpty(explanation.FixSteps);
+    }
+
+    [Fact]
+    public async Task Explain_unknown_item_is_404()
+    {
+        var response = await _client.PostAsync("/api/items/does-not-exist/explain", null);
+
+        Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
     }
 
     [Fact]

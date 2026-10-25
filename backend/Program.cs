@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using OversharingChecker.Api.Data;
+using OversharingChecker.Api.Explanations;
 using OversharingChecker.Api.Risk;
 using OversharingChecker.Api.Risk.Rules;
 using OversharingChecker.Api.Services;
@@ -25,6 +26,22 @@ builder.Services.AddSingleton<IRiskRule>(new ExcessiveDirectSharingRule(
 builder.Services.AddSingleton<IRiskRule, AnyoneEditLinkRule>();
 builder.Services.AddSingleton<RiskAnalyzer>();
 builder.Services.AddSingleton<ScanService>();
+
+// --- Explanations: use OpenAI / Azure OpenAI when a key is configured, otherwise the template fallback.
+// The key is read from user secrets or environment variables (OpenAI__ApiKey or OPENAI_API_KEY).
+var openAiOptions = builder.Configuration.GetSection(OpenAiOptions.SectionName).Get<OpenAiOptions>() ?? new OpenAiOptions();
+if (string.IsNullOrWhiteSpace(openAiOptions.ApiKey))
+    openAiOptions.ApiKey = builder.Configuration["OPENAI_API_KEY"];
+
+if (openAiOptions.IsConfigured)
+{
+    builder.Services.AddSingleton(openAiOptions);
+    builder.Services.AddHttpClient<IRiskExplainer, OpenAiRiskExplainer>(client => client.Timeout = TimeSpan.FromSeconds(30));
+}
+else
+{
+    builder.Services.AddSingleton<IRiskExplainer, RuleBasedRiskExplainer>();
+}
 
 // --- Web API: enums are sent as readable strings ("Critical" instead of 3).
 builder.Services.AddControllers()
