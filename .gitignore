@@ -1,0 +1,27 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Node / Vite
+node_modules/
+dist/
+coverage/
+*.local
+
+# Secrets and local configuration (never commit API keys)
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
