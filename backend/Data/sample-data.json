@@ -1,0 +1,3364 @@
+{
+  "@odata.context": "Simulated Microsoft Graph response (drive items with expanded permissions)",
+  "tenant": {
+    "displayName": "Alpenwerk GmbH",
+    "domain": "alpenwerk.example"
+  },
+  "value": [
+    {
+      "id": "aw-001",
+      "name": "Q3-2026-Finanzbericht.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-12T09:14:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Berichte"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0001",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-08-10T08:00:00Z",
+          "expirationDateTime": null
+        },
+        {
+          "id": "perm-0002",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lena Huber",
+              "email": "lena.huber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0003",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Maria Pichler",
+              "email": "maria.pichler@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-002",
+      "name": "Budgetplanung-2027.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-20T15:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Planung"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0004",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lena Huber",
+              "email": "lena.huber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0005",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0006",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Maria Pichler",
+              "email": "maria.pichler@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-003",
+      "name": "Rechnungsvorlage.docx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-09-02T11:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Lena Huber",
+          "email": "lena.huber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Vorlagen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0007",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-09-05T10:00:00Z",
+          "expirationDateTime": "2026-12-31T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-004",
+      "name": "Jahresabschluss-2025.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-03-28T16:45:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Abschluss"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0008",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Peter König",
+              "email": "p.koenig@steuerberatung-koenig.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0009",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lena Huber",
+              "email": "lena.huber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0010",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-005",
+      "name": "Kreditorenliste.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-07-14T08:20:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Lena Huber",
+          "email": "lena.huber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Kreditoren"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0011",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2025-11-03T09:00:00Z",
+          "expirationDateTime": null
+        },
+        {
+          "id": "perm-0012",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Maria Pichler",
+              "email": "maria.pichler@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-006",
+      "name": "Reisekostenrichtlinie.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-01-15T10:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Maria Pichler",
+          "email": "maria.pichler@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Finance",
+        "path": "/sites/Finance/Shared Documents/Richtlinien"
+      },
+      "sensitivityLabel": {
+        "displayName": "Public"
+      },
+      "permissions": [
+        {
+          "id": "perm-0013",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2026-10-01T09:00:00Z",
+          "expirationDateTime": "2027-01-31T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-007",
+      "name": "Gehaltsliste-2026.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-01T07:50:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Sophie Brandl",
+          "email": "sophie.brandl@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Gehalt"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0014",
+          "roles": [
+            "write"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "edit"
+          },
+          "createdDateTime": "2026-09-18T13:12:00Z",
+          "expirationDateTime": null
+        },
+        {
+          "id": "perm-0015",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-008",
+      "name": "Bewerbungsunterlagen-Vertriebsleitung.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-15T14:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Sophie Brandl",
+          "email": "sophie.brandl@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Recruiting"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0016",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0017",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Jonas Aigner",
+              "email": "jonas.aigner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-009",
+      "name": "Mitarbeiterhandbuch.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2025-03-10T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Katharina Berger",
+          "email": "katharina.berger@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Allgemein"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0018",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2025-03-12T09:00:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-010",
+      "name": "Krankmeldungen-Q3.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-05T12:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Sophie Brandl",
+          "email": "sophie.brandl@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Abwesenheiten"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0019",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Max Fischer",
+              "email": "max.fischer84@freemail.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0020",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-011",
+      "name": "Onboarding-Checkliste.docx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-08-21T10:15:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Katharina Berger",
+          "email": "katharina.berger@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Onboarding"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0021",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sophie Brandl",
+              "email": "sophie.brandl@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0022",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Stefan Hofer",
+              "email": "stefan.hofer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0023",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Anna Lechner",
+              "email": "anna.lechner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-012",
+      "name": "Betriebsvereinbarung-Homeoffice.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-05-02T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Katharina Berger",
+          "email": "katharina.berger@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "HR",
+        "path": "/sites/HR/Shared Documents/Richtlinien"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0024",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-09-01T09:00:00Z",
+          "expirationDateTime": "2027-08-31T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-013",
+      "name": "Kundenliste-DACH.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-18T17:05:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Tobias Maier",
+          "email": "tobias.maier@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Vertrieb",
+        "path": "/sites/Vertrieb/Shared Documents/Kunden"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0025",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Klein",
+              "email": "sarah.klein@partner-logistik.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0026",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Jonas Aigner",
+              "email": "jonas.aigner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0027",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Anna Lechner",
+              "email": "anna.lechner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-014",
+      "name": "Preisliste-2026.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-09-01T08:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Jonas Aigner",
+          "email": "jonas.aigner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Vertrieb",
+        "path": "/sites/Vertrieb/Shared Documents/Preise"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0028",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2026-09-01T08:30:00Z",
+          "expirationDateTime": "2026-11-30T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-015",
+      "name": "Angebot-Kunde-4711.docx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-22T11:40:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Tobias Maier",
+          "email": "tobias.maier@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Vertrieb",
+        "path": "/sites/Vertrieb/Shared Documents/Angebote"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0029",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Jonas Aigner",
+              "email": "jonas.aigner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0030",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-016",
+      "name": "Vertriebspraesentation-Q4.pptx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-08T15:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Anna Lechner",
+          "email": "anna.lechner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Vertrieb",
+        "path": "/sites/Vertrieb/Shared Documents/Präsentationen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0031",
+          "roles": [
+            "write"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "edit"
+          },
+          "createdDateTime": "2025-12-04T10:00:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-017",
+      "name": "Rahmenvertrag-Logistik.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-06-30T13:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Jonas Aigner",
+          "email": "jonas.aigner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Vertrieb",
+        "path": "/sites/Vertrieb/Shared Documents/Verträge"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0032",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Klein",
+              "email": "sarah.klein@partner-logistik.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0033",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Thomas Weiss",
+              "email": "t.weiss@kanzlei-weiss.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0034",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-018",
+      "name": "Konstruktionszeichnung-AW200.dwg",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-19T09:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Florian Wimmer",
+          "email": "florian.wimmer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Konstruktion"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0035",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "David Novak",
+              "email": "d.novak@lieferant-stahl.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0036",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Daniel Moser",
+              "email": "daniel.moser@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0037",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Stefan Hofer",
+              "email": "stefan.hofer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-019",
+      "name": "Patentanmeldung-Entwurf.docx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-10T16:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Florian Wimmer",
+          "email": "florian.wimmer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Patente"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0038",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Daniel Moser",
+              "email": "daniel.moser@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0039",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-020",
+      "name": "Wartungshandbuch-AW100.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2024-11-20T10:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Daniel Moser",
+          "email": "daniel.moser@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Handbücher"
+      },
+      "sensitivityLabel": {
+        "displayName": "Public"
+      },
+      "permissions": [
+        {
+          "id": "perm-0040",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2024-11-21T08:00:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-021",
+      "name": "Testprotokolle-2026.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-21T13:20:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Daniel Moser",
+          "email": "daniel.moser@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Tests"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0041",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Florian Wimmer",
+              "email": "florian.wimmer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0042",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Stefan Hofer",
+              "email": "stefan.hofer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-022",
+      "name": "Stueckliste-AW200.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-14T08:45:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Florian Wimmer",
+          "email": "florian.wimmer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Konstruktion"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0043",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-10-14T09:00:00Z",
+          "expirationDateTime": "2026-12-31T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-023",
+      "name": "CAD-Bibliothek-Normteile.zip",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-02-11T12:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Engineering",
+        "path": "/sites/Engineering/Shared Documents/Bibliothek"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0044",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-08-01T12:00:00Z",
+          "expirationDateTime": "2027-02-01T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-024",
+      "name": "Kampagne-Herbst-2026.pptx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-09-25T10:10:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Anna Lechner",
+          "email": "anna.lechner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Marketing",
+        "path": "/sites/Marketing/Shared Documents/Kampagnen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0045",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elena Rossi",
+              "email": "e.rossi@agentur-blau.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0046",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Julia Steiner",
+              "email": "julia.steiner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-025",
+      "name": "Logo-Paket.zip",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-02-03T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Julia Steiner",
+          "email": "julia.steiner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Marketing",
+        "path": "/sites/Marketing/Shared Documents/Brand"
+      },
+      "sensitivityLabel": {
+        "displayName": "Public"
+      },
+      "permissions": [
+        {
+          "id": "perm-0047",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2026-02-03T09:15:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-026",
+      "name": "Pressemitteilung-Entwurf.docx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-23T14:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Julia Steiner",
+          "email": "julia.steiner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Marketing",
+        "path": "/sites/Marketing/Shared Documents/Presse"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0048",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Anna Lechner",
+              "email": "anna.lechner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0049",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-027",
+      "name": "Messeplanung-2027.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-02T11:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Anna Lechner",
+          "email": "anna.lechner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Marketing",
+        "path": "/sites/Marketing/Shared Documents/Messen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0050",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Julia Steiner",
+              "email": "julia.steiner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0051",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Tobias Maier",
+              "email": "tobias.maier@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0052",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Jonas Aigner",
+              "email": "jonas.aigner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-028",
+      "name": "Social-Media-Plan.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-16T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Julia Steiner",
+          "email": "julia.steiner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Marketing",
+        "path": "/sites/Marketing/Shared Documents/Social Media"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0053",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elena Rossi",
+              "email": "e.rossi@agentur-blau.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0054",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Anna Lechner",
+              "email": "anna.lechner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-029",
+      "name": "Strategie-2030.pptx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-09-30T18:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Geschäftsleitung",
+        "path": "/sites/Geschaeftsleitung/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0055",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-10-01T07:00:00Z",
+          "expirationDateTime": null
+        },
+        {
+          "id": "perm-0056",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Florian Wimmer",
+              "email": "florian.wimmer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0057",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-030",
+      "name": "Protokoll-GL-Sitzung-Oktober.docx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-17T16:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Katharina Berger",
+          "email": "katharina.berger@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Geschäftsleitung",
+        "path": "/sites/Geschaeftsleitung/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0058",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0059",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Florian Wimmer",
+              "email": "florian.wimmer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0060",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Tobias Maier",
+              "email": "tobias.maier@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-031",
+      "name": "Bewertung-Projekt-Edelweiss.xlsx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-09T10:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Geschäftsleitung",
+        "path": "/sites/Geschaeftsleitung/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0061",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Thomas Weiss",
+              "email": "t.weiss@kanzlei-weiss.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0062",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Katharina Berger",
+              "email": "katharina.berger@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-032",
+      "name": "Organigramm-2026.pdf",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-04-01T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Katharina Berger",
+          "email": "katharina.berger@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Geschäftsleitung",
+        "path": "/sites/Geschaeftsleitung/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0063",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0064",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sophie Brandl",
+              "email": "sophie.brandl@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-033",
+      "name": "Netzwerkplan-Standorte.vsdx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-08-12T15:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "IT",
+        "path": "/sites/IT/Shared Documents/Infrastruktur"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0065",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2026-06-15T10:00:00Z",
+          "expirationDateTime": null
+        },
+        {
+          "id": "perm-0066",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Daniel Moser",
+              "email": "daniel.moser@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-034",
+      "name": "Admin-Zugaenge.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-11T08:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "IT",
+        "path": "/sites/IT/Shared Documents/Admin"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0067",
+          "roles": [
+            "write"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "edit"
+          },
+          "createdDateTime": "2026-10-11T08:05:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-035",
+      "name": "IT-Sicherheitsrichtlinie.pdf",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-07-01T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "IT",
+        "path": "/sites/IT/Shared Documents/Richtlinien"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0068",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-09-15T09:00:00Z",
+          "expirationDateTime": "2027-03-31T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-036",
+      "name": "Lizenzuebersicht-M365.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-03T10:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "IT",
+        "path": "/sites/IT/Shared Documents/Lizenzen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0069",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0070",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lena Huber",
+              "email": "lena.huber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-037",
+      "name": "Projektplan-Gipfel.xlsx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-20T08:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Florian Wimmer",
+          "email": "florian.wimmer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Projekt Gipfel",
+        "path": "/sites/ProjektGipfel/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0071",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lukas Bauer",
+              "email": "lukas.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0072",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Hannah Reiter",
+              "email": "hannah.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0073",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Felix Leitner",
+              "email": "felix.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0074",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Kofler",
+              "email": "laura.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0075",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Fuchs",
+              "email": "simon.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0076",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Egger",
+              "email": "lisa.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0077",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Brunner",
+              "email": "michael.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0078",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Wagner",
+              "email": "sarah.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0079",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Schmid",
+              "email": "andreas.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0080",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Haas",
+              "email": "theresa.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0081",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Bauer",
+              "email": "matthias.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0082",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Verena Reiter",
+              "email": "verena.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0083",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Christian Leitner",
+              "email": "christian.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0084",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Johanna Kofler",
+              "email": "johanna.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0085",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Patrick Fuchs",
+              "email": "patrick.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0086",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Magdalena Egger",
+              "email": "magdalena.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0087",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sebastian Brunner",
+              "email": "sebastian.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0088",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elisabeth Wagner",
+              "email": "elisabeth.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0089",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Martin Schmid",
+              "email": "martin.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0090",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Carina Haas",
+              "email": "carina.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0091",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lukas Wagner",
+              "email": "lukas.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0092",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Hannah Schmid",
+              "email": "hannah.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0093",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Felix Haas",
+              "email": "felix.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0094",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Bauer",
+              "email": "laura.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0095",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Reiter",
+              "email": "simon.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0096",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Leitner",
+              "email": "lisa.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0097",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Kofler",
+              "email": "michael.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0098",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Fuchs",
+              "email": "sarah.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0099",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Egger",
+              "email": "andreas.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0100",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Brunner",
+              "email": "theresa.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0101",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Wagner",
+              "email": "matthias.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0102",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Verena Schmid",
+              "email": "verena.schmid@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-038",
+      "name": "Lastenheft-Gipfel.docx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-13T14:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Florian Wimmer",
+          "email": "florian.wimmer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Projekt Gipfel",
+        "path": "/sites/ProjektGipfel/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0103",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Kofler",
+              "email": "laura.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0104",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Fuchs",
+              "email": "simon.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0105",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Egger",
+              "email": "lisa.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0106",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Brunner",
+              "email": "michael.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0107",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Wagner",
+              "email": "sarah.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0108",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Schmid",
+              "email": "andreas.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0109",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Haas",
+              "email": "theresa.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0110",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Bauer",
+              "email": "matthias.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0111",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Verena Reiter",
+              "email": "verena.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0112",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Christian Leitner",
+              "email": "christian.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0113",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Johanna Kofler",
+              "email": "johanna.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0114",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Patrick Fuchs",
+              "email": "patrick.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0115",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Magdalena Egger",
+              "email": "magdalena.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0116",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sebastian Brunner",
+              "email": "sebastian.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0117",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elisabeth Wagner",
+              "email": "elisabeth.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0118",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Martin Schmid",
+              "email": "martin.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0119",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Carina Haas",
+              "email": "carina.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0120",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lukas Wagner",
+              "email": "lukas.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0121",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Hannah Schmid",
+              "email": "hannah.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0122",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Felix Haas",
+              "email": "felix.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0123",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Bauer",
+              "email": "laura.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0124",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Reiter",
+              "email": "simon.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0125",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Leitner",
+              "email": "lisa.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0126",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Kofler",
+              "email": "michael.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0127",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Fuchs",
+              "email": "sarah.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0128",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Egger",
+              "email": "andreas.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0129",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Brunner",
+              "email": "theresa.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0130",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Wagner",
+              "email": "matthias.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0131",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Klein",
+              "email": "sarah.klein@partner-logistik.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-039",
+      "name": "Statusbericht-KW42.pptx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-17T12:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Daniel Moser",
+          "email": "daniel.moser@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Projekt Gipfel",
+        "path": "/sites/ProjektGipfel/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0132",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Florian Wimmer",
+              "email": "florian.wimmer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0133",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Markus Gruber",
+              "email": "markus.gruber@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-040",
+      "name": "Schichtplan-November.xlsx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-10-22T06:30:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Werk Rosenheim",
+        "path": "/sites/WerkRosenheim/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0134",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Wagner",
+              "email": "sarah.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0135",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Schmid",
+              "email": "andreas.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0136",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Haas",
+              "email": "theresa.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0137",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Bauer",
+              "email": "matthias.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0138",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Verena Reiter",
+              "email": "verena.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0139",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Christian Leitner",
+              "email": "christian.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0140",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Johanna Kofler",
+              "email": "johanna.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0141",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Patrick Fuchs",
+              "email": "patrick.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0142",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Magdalena Egger",
+              "email": "magdalena.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0143",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sebastian Brunner",
+              "email": "sebastian.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0144",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elisabeth Wagner",
+              "email": "elisabeth.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0145",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Martin Schmid",
+              "email": "martin.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0146",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Carina Haas",
+              "email": "carina.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0147",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lukas Wagner",
+              "email": "lukas.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0148",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Hannah Schmid",
+              "email": "hannah.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0149",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Felix Haas",
+              "email": "felix.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0150",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Bauer",
+              "email": "laura.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0151",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Reiter",
+              "email": "simon.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0152",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Leitner",
+              "email": "lisa.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0153",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Kofler",
+              "email": "michael.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0154",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sarah Fuchs",
+              "email": "sarah.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0155",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Andreas Egger",
+              "email": "andreas.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0156",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Theresa Brunner",
+              "email": "theresa.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0157",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Matthias Wagner",
+              "email": "matthias.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0158",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Verena Schmid",
+              "email": "verena.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0159",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Christian Haas",
+              "email": "christian.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0160",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Johanna Bauer",
+              "email": "johanna.bauer@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0161",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Patrick Reiter",
+              "email": "patrick.reiter@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0162",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Magdalena Leitner",
+              "email": "magdalena.leitner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0163",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Sebastian Kofler",
+              "email": "sebastian.kofler@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0164",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Elisabeth Fuchs",
+              "email": "elisabeth.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0165",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Martin Egger",
+              "email": "martin.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0166",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Carina Brunner",
+              "email": "carina.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0167",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lukas Fuchs",
+              "email": "lukas.fuchs@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0168",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Hannah Egger",
+              "email": "hannah.egger@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0169",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Felix Brunner",
+              "email": "felix.brunner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0170",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Laura Wagner",
+              "email": "laura.wagner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0171",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Simon Schmid",
+              "email": "simon.schmid@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0172",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Lisa Haas",
+              "email": "lisa.haas@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0173",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Michael Bauer",
+              "email": "michael.bauer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-041",
+      "name": "Sicherheitsunterweisung.pdf",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-03-15T08:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Werk Rosenheim",
+        "path": "/sites/WerkRosenheim/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0174",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-09-20T08:00:00Z",
+          "expirationDateTime": "2027-03-15T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-042",
+      "name": "Lieferantenbewertung.xlsx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-09-29T10:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Daniel Moser",
+          "email": "daniel.moser@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Werk Rosenheim",
+        "path": "/sites/WerkRosenheim/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0175",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "David Novak",
+              "email": "d.novak@lieferant-stahl.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0176",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Stefan Hofer",
+              "email": "stefan.hofer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-043",
+      "name": "Protokoll-Betriebsrat-September.docx",
+      "locationType": "Teams",
+      "lastModifiedDateTime": "2026-09-28T15:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Maria Pichler",
+          "email": "maria.pichler@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Betriebsrat",
+        "path": "/sites/Betriebsrat/Shared Documents/General"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0177",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Jonas Aigner",
+              "email": "jonas.aigner@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0178",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Anna Lechner",
+              "email": "anna.lechner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-044",
+      "name": "Einkaufskonditionen-2026.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-10-01T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Jonas Aigner",
+          "email": "jonas.aigner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Einkauf",
+        "path": "/sites/Einkauf/Shared Documents/Konditionen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0179",
+          "roles": [
+            "write"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "edit"
+          },
+          "createdDateTime": "2026-10-01T09:30:00Z",
+          "expirationDateTime": "2026-11-01T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-045",
+      "name": "Lieferantenverzeichnis.xlsx",
+      "locationType": "SharePoint",
+      "lastModifiedDateTime": "2026-08-18T11:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Jonas Aigner",
+          "email": "jonas.aigner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "Einkauf",
+        "path": "/sites/Einkauf/Shared Documents/Lieferanten"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0180",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Daniel Moser",
+              "email": "daniel.moser@alpenwerk.example"
+            }
+          }
+        },
+        {
+          "id": "perm-0181",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Stefan Hofer",
+              "email": "stefan.hofer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-046",
+      "name": "Gehaltsverhandlung-Notizen.docx",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-10-06T19:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Markus Gruber",
+          "email": "markus.gruber@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Markus Gruber",
+        "path": "/personal/markus_gruber_alpenwerk_example/Documents"
+      },
+      "sensitivityLabel": {
+        "displayName": "Highly Confidential"
+      },
+      "permissions": []
+    },
+    {
+      "id": "aw-047",
+      "name": "Fotos-Teamevent-2026.zip",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-07-20T18:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Julia Steiner",
+          "email": "julia.steiner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Julia Steiner",
+        "path": "/personal/julia_steiner_alpenwerk_example/Documents/Teamevent"
+      },
+      "sensitivityLabel": {
+        "displayName": "Public"
+      },
+      "permissions": [
+        {
+          "id": "perm-0182",
+          "roles": [
+            "write"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "edit"
+          },
+          "createdDateTime": "2026-07-21T08:00:00Z",
+          "expirationDateTime": null
+        }
+      ]
+    },
+    {
+      "id": "aw-048",
+      "name": "Kundendaten-Export.csv",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-10-24T21:15:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Tobias Maier",
+          "email": "tobias.maier@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Tobias Maier",
+        "path": "/personal/tobias_maier_alpenwerk_example/Documents/Export"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0183",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Max Fischer",
+              "email": "max.fischer84@freemail.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-049",
+      "name": "Praesentation-Entwurf.pptx",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-10-21T10:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Anna Lechner",
+          "email": "anna.lechner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Anna Lechner",
+        "path": "/personal/anna_lechner_alpenwerk_example/Documents"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0184",
+          "roles": [
+            "write"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Julia Steiner",
+              "email": "julia.steiner@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-050",
+      "name": "Lebenslauf-Vorlage.docx",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-05-12T09:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Daniel Moser",
+          "email": "daniel.moser@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Daniel Moser",
+        "path": "/personal/daniel_moser_alpenwerk_example/Documents/Vorlagen"
+      },
+      "sensitivityLabel": {
+        "displayName": "Public"
+      },
+      "permissions": [
+        {
+          "id": "perm-0185",
+          "roles": [
+            "read"
+          ],
+          "grantedToV2": {
+            "user": {
+              "displayName": "Florian Wimmer",
+              "email": "florian.wimmer@alpenwerk.example"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "aw-051",
+      "name": "Reisekosten-September.xlsx",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-10-20T08:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Sophie Brandl",
+          "email": "sophie.brandl@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Sophie Brandl",
+        "path": "/personal/sophie_brandl_alpenwerk_example/Documents/Reisekosten"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": [
+        {
+          "id": "perm-0186",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "anonymous",
+            "type": "view"
+          },
+          "createdDateTime": "2026-10-20T08:10:00Z",
+          "expirationDateTime": "2026-10-27T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-052",
+      "name": "Wartungsvertrag-Scan.pdf",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-04-08T14:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Stefan Hofer",
+          "email": "stefan.hofer@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Stefan Hofer",
+        "path": "/personal/stefan_hofer_alpenwerk_example/Documents/Scans"
+      },
+      "sensitivityLabel": {
+        "displayName": "Confidential"
+      },
+      "permissions": [
+        {
+          "id": "perm-0187",
+          "roles": [
+            "read"
+          ],
+          "link": {
+            "scope": "organization",
+            "type": "view"
+          },
+          "createdDateTime": "2026-04-08T14:10:00Z",
+          "expirationDateTime": "2027-04-08T23:59:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aw-053",
+      "name": "Notizen-Kundentermin.docx",
+      "locationType": "OneDrive",
+      "lastModifiedDateTime": "2026-10-23T17:00:00Z",
+      "createdBy": {
+        "user": {
+          "displayName": "Jonas Aigner",
+          "email": "jonas.aigner@alpenwerk.example"
+        }
+      },
+      "parentReference": {
+        "siteName": "OneDrive – Jonas Aigner",
+        "path": "/personal/jonas_aigner_alpenwerk_example/Documents"
+      },
+      "sensitivityLabel": {
+        "displayName": "Internal"
+      },
+      "permissions": []
+    }
+  ]
+}

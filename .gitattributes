@@ -1,0 +1,3 @@
+# Normalize line endings so Windows and Linux (CI) see the same files.
+* text=auto
+*.png binary

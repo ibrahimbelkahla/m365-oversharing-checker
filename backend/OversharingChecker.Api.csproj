@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Copy the sample data next to the compiled app so it can be found at runtime. -->
+    <Content Update="Data\sample-data.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
